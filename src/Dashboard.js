@@ -3,7 +3,7 @@ import MovieCard from "./MovieCard";
 
 class MovieCardsList extends Component {
   render() {
-  
+  // eslint-disable-next-line
     const { profiles, users, movies, usersByMovie } = this.props;
 
     const movieCards = Object.keys(movies).map(id => (

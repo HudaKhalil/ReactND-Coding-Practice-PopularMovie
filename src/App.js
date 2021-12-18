@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import logo from "../logo.svg";
-import "../App.css";
+import logo from "./logo.svg";
+import "./App.css";
 import Dashboard from "./Dashboard";
 
+// eslint-disable-next-line
 const profiles = [
   {
     id: 1,
